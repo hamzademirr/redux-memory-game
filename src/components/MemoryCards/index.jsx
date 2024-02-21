@@ -41,9 +41,9 @@ function MemoryCards() {
             key={index}
           >
             {card.isOpen ? (
-              <img src={`../../../public/dummy/${card.name}.png`} alt="Memory Card" />
+              <img src={`/dummy/${card.name}.png`} alt="Memory Card" />
             ) : (
-              <img src="../../../public/dummy/who-is-pokemon.jpg" alt="Memory Card" />
+              <img src="/dummy/who-is-pokemon.jpg" alt="Memory Card" />
             )}
           </button>
         ))}
