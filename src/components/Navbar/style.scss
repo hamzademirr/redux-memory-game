@@ -1,0 +1,17 @@
+navbar{
+  .navbar-container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 4px;
+    text-align: start;
+    margin: 0 auto;
+    h1{
+      font-size: 1.8rem;
+      margin-right: auto;
+    }
+    button{
+      margin-left: auto;
+    }
+  }
+}
